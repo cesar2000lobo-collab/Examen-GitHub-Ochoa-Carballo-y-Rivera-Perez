@@ -1,0 +1,80 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa; /* color celeste claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h2 {
+    text-align: center;
+    color: #0d47a1;
+    border-bottom: 2px solid #64b5f6;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/* Párrafos */
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+/* Imagen */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Lista de beneficios */
+ul {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #bbdefb;
+    padding: 20px;
+    border-radius: 10px;
+    list-style-type: square;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.05em;
+}
+
+/* Enlace */
+a {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    text-decoration: none;
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0d47a1;
+}
+
+/* Pequeño detalle decorativo al inicio */
+body::before {
+    content: "";
+    display: block;
+    height: 200px;
+    background: url('https://img.freepik.com/foto-gratis/vista-superior-equipos-deportivos_23-2147601034.jpg?w=1380&t=st=1716423766~exp=1716424366~hmac=...') no-repeat center/cover;
+    filter: brightness(0.7);
+}
